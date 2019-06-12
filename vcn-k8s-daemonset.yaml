@@ -25,7 +25,7 @@ spec:
         containers:
           # securityContext:
           # privileged: true
-        - image: zerotrust/vcn:latest
+        - image: pleasebuildyourown_containerimage_see_readme
           name: codenotary-vcnverify-exporter
           imagePullPolicy: Always
           ports:
